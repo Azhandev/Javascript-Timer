@@ -1,0 +1,96 @@
+body {
+    background-position: cover;
+    background-image: url(timer2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 25px;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    border-radius: 15px;
+    border-radius: 20px;
+}
+
+#container {
+    padding: 10px 25px;
+}
+
+h2 {
+    display: block;
+    font-family: 'Comic Sans MS', cursive;
+    margin-top: 10px;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: -0.03rem;
+    text-transform: uppercase;
+    opacity: 0.7;
+    /* Changed from 7 to 0.7 */
+    text-align: center;
+    color: white;
+    outline-style: dashed;
+    outline-color: white;
+}
+
+#display {
+    margin-top: 20px;
+    font-size: 2.2rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: orange;
+    /* Changed text color */
+    text-shadow: 2px 2px 2px white;
+    /* Changed text shadow */
+    margin-bottom: 10px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    /* Changed padding notation */
+    margin: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#StartBtn {
+    background-color: #FF5733;
+    /* Changed color */
+}
+
+#StartBtn:hover {
+    background-color: #FF9640;
+    /* Changed color */
+}
+
+#StopBtn {
+    background-color: #337DFF;
+    /* Changed color */
+}
+
+#StopBtn:hover {
+    background-color: #408BFF;
+    /* Changed color */
+}
+
+#resetBtn {
+    background-color: #FF3333;
+    /* Changed color */
+}
+
+#resetBtn:hover {
+    background-color: #FF4040;
+    /* Changed color */
+}
