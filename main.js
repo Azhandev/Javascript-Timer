@@ -44,3 +44,20 @@ function update() {
 
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
 }
+
+// function updateTimer() {
+//     const currentTime = Date.now();
+//     const elapsedTime = currentTime - startTime;
+
+//     const hours = Math.floor(elapsedTime / 3600000);
+//     const minutes = Math.floor((elapsedTime % 3600000) / 60000);
+//     const seconds = Math.floor((elapsedTime % 60000) / 1000);
+//     const milliseconds = Math.floor((elapsedTime % 1000) / 10);
+
+//     const formattedHours = String(hours).padStart(2, "0");
+//     const formattedMinutes = String(minutes).padStart(2, "0");
+//     const formattedSeconds = String(seconds).padStart(2, "0");
+//     const formattedMilliseconds = String(milliseconds).padStart(2, "0");
+
+//     display.textContent = `${formattedHours}:${formattedMinutes}:${formattedSeconds}:${formattedMilliseconds}`;
+// }
